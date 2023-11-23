@@ -1,5 +1,7 @@
 import os
 import hashlib
+
+# md5 work split without threading
 class Worker:
     NUMBER_RANGE = 10000
     CHUNK = 100
